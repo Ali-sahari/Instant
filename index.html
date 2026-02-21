@@ -1,0 +1,1512 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Instant</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: black;
+        overflow-x: hidden;
+      }
+      .hh {
+        color: white;
+        font-size: large;
+      }
+      .hh:hover {
+        color: orange;
+      }
+      li {
+        margin-right: 10px;
+      }
+      .color {
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      class="navbar navbar-expand-lg w-100"
+      style="position: fixed; z-index: 1; margin: 0; padding: 0"
+    >
+      <div
+        class="container-fluid"
+        style="background-color: black; height: 90px"
+      >
+        <a
+          href="#"
+          class="navbar-brand hh"
+          style="font-size: xx-large; margin-left: 80px"
+          >Instant</a
+        >
+
+        <button
+          type="button"
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarnav"
+          aria-controls="navbarnav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="fa-solid fa-bars fa-xl" style="color: white"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          style="margin-left: 150px"
+          id="navbarnav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="#" class="nav-link hh active" style="color: orange"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item ">
+              <a href="#story" class="nav-link hh">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#Features" class="nav-link hh">Features</a>
+            </li>
+            <li class="nav-item">
+              <a href="#Services" class="nav-link hh">Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="#Pricing" class="nav-link hh">Pricing</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle hh"
+                role="button"
+                data-bs-toggle="dropdown"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a hh href="#" class="dropdown-item">dropdown 1</a></li>
+                <li><a hh href="#" class="dropdown-item">dropdown 2</a></li>
+                <li><a hh href="#" class="dropdown-item">dropdown 3</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a href="#Contact" class="nav-link hh">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row justify-content-center ">
+        <div class="col-md-8" style="color: white">
+          <h1 style="font-size: xxx-large;margin-top: 2rem; ">Transform Your Workflow With</h1>
+          <p class="" style="text-align: center; font-size: xxx-large">
+            Seamless Integration
+          </p>
+          <p
+            class="figure-caption color"
+            style="text-align: center; font-size: large; width: 80%"
+          >
+            Our innovative platform empowers businesses to enhance their
+            productivity and achieve unparalleled operational efficiency across
+            diverse industries.
+          </p>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-3">
+            <div class="">
+              <button
+                type="button"
+                class="btn btn-warning rounded-5 mt-3 form-floating"
+                style="width: 270px; height: 60px; color: white"
+              >
+                Discover More Today
+              </button>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="">
+              <a target="_blank" href="">
+                <button
+                  type="button"
+                  class="btn btn-outline-dark rounded-5 mt-3 form-floating"
+                  style="width: 270px; height: 60px; color: white"
+                >
+                  <i style="margin-right: 10px" class="fa-brands fa-youtube"></i
+                  >Watch a Quick Demo
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-8 mt-5">
+          <div class="">
+            <img
+              class="img-fluid"
+              style="border-radius: 15px"
+              src="./0.jpeg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="row justify-content-center" style="margin-top: 150px">
+        <div class="col-md-7">
+          <div class="">
+            <img
+              class="img-fluid"
+              style="border-radius: 15px"
+              height="750px"
+              src="./9.jpeg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="col-md-5" id="story">
+          <div class="color" st>
+            <h1 style="font-weight: 700">Our Story</h1>
+            <p class="lead" style="font-weight: 400">
+              Crafting innovative solutions since 2010
+            </p>
+            <p class="lead">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel
+              mauris in magna fringilla finibus. Suspendisse potenti. Integer ut
+              fringilla mi, a aliquam risus. Maecenas ac nibh magna. Aenean
+              fringilla lobortis ex, sit amet iaculis eros facilisis nec.
+            </p>
+          </div>
+
+          <div class="row" style="justify-content: space-around">
+            <div class="col-md-6 mt-5 color">
+              <div class="card">
+                <div class="card-body black">
+                  <p class="mt-3" style="line-height: 0.35">Excellence</p>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 mt-5 color">
+              <div class="card">
+                <div class="card-body black">
+                  <p>Excellence</p>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 mt-5 color">
+              <div class="card">
+                <div class="card-body black">
+                  <p>Excellence</p>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 mt-5 color">
+              <div class="card">
+                <div class="card-body black">
+                  <p>Excellence</p>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-5 d-flex justify-content-around">
+            <div class="col-md-5 mt-2">
+              <div class="">
+                <button
+                  type="button"
+                  class="btn btn-warning rounded-5 color"
+                  style="height: 40px; width: 130px"
+                >
+                  Laren More
+                </button>
+              </div>
+            </div>
+            <div class="col-md-5 mt-2">
+              <div class=" ">
+                <button type="button" class="btn btn-outline-warning rounded-5">
+                  contact us
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-5" id="Features">
+        <div class="col-md-12 color" style="text-align: center">
+          <div class="">
+            <h1>Features</h1>
+            <p>
+              Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+              consectetur velit
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row ">
+        <div class="col-md-6 color">
+          <h1>Powerful features to accelerate growth</h1>
+          <p class="mt-4" style="opacity: 0.75; font-size: large">
+            Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+          </p>
+          <div style="display: flex; font-size: x-large" class="">
+            <p>
+              150+
+              <br />
+              <span style="font-size: large">Features</span>
+            </p>
+            <p style="margin-left: 50px">
+              <span style="font-size: x-large">99.9%</span>
+              <br />
+              <span style="font-size: large">Uptime</span>
+            </p>
+            <p style="margin-left: 50px; font-size: x-large">
+              24/7
+              <br />
+              <span style="font-size: large">Support</span>
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <img
+            class="img-fluid"
+            style="border-radius: 15px"
+            src="./10.jpeg"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row mt-5">
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card text-bg-secondary">
+              <div class="card-body bc" style="height: 350px">
+                <div class="" style="line-height: 5">
+                  <i class="fa-solid fa-bolt fa-2xl"></i>
+                  <h1 style="font-size: x-large; width: 200px">
+                    Lightning Fast Performance
+                  </h1>
+                </div>
+                <p class="card-text">
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur excepteur sint.
+                </p>
+                <a
+                  href="#"
+                  class="btn btn-primary rounded-5 xx"
+                  style="background-color: #040000"
+                  >click here</a
+                >
+                <a
+                  href="#"
+                  class="btn btn-primary rounded-5 xx"
+                  style="background-color: #040000"
+                  >click here</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card text-bg-secondary">
+              <div class="card-body bc" style="height: 350px">
+                <div class="" style="line-height: 5">
+                  <i class="fa-solid fa-shield-halved fa-2xl"></i>
+                  <h1 style="font-size: x-large; width: 200px">
+                    Enterprise Security
+                  </h1>
+                </div>
+                <p class="card-text">
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur excepteur sint.
+                </p>
+                <a
+                  href="#"
+                  class="btn btn-primary rounded-5 xx"
+                  style="background-color: #040000"
+                  >click here</a
+                >
+                <a
+                  href="#"
+                  class="btn btn-primary rounded-5 xx"
+                  style="background-color: #040000"
+                  >click here</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card text-bg-secondary">
+              <div class="card-body bc" style="height: 350px">
+                <div class="" style="line-height: 5">
+                  <i class="fa-solid fa-user fa-2xl"></i>
+                  <h1 style="font-size: x-large; width: 200px">
+                    Team Collaboration
+                  </h1>
+                </div>
+                <p class="card-text">
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur excepteur sint.
+                </p>
+                <a
+                  href="#"
+                  class="btn btn-primary rounded-5 xx"
+                  style="background-color: #040000"
+                  >click here</a
+                >
+                <a
+                  href="#"
+                  class="btn btn-primary rounded-5 xx"
+                  style="background-color: #040000"
+                  >click here</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card text-bg-secondary">
+              <div class="card-body bc" style="height: 350px">
+                <div class="" style="line-height: 5">
+                  <i class="fa-solid fa-arrows-up-to-line fa-2xl"></i>
+                  <h1 style="font-size: x-large; width: 200px">
+                    Advanced Analytics
+                  </h1>
+                </div>
+                <p class="card-text">
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur excepteur sint.
+                </p>
+                <a
+                  href="#"
+                  class="btn btn-primary rounded-5 xx"
+                  style="background-color: #040000"
+                  >click here</a
+                >
+                <a
+                  href="#"
+                  class="btn btn-primary rounded-5 xx"
+                  style="background-color: #040000"
+                  >click here</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card text-bg-secondary">
+              <div class="card-body bc" style="height: 350px">
+                <div class="" style="line-height: 5">
+                  <i class="fa-solid fa-gear fa-2xl"></i>
+                  <h1 style="font-size: x-large; width: 200px">
+                    Smart Automation
+                  </h1>
+                </div>
+                <p class="card-text">
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur excepteur sint.
+                </p>
+                <a
+                  href="#"
+                  class="btn btn-primary rounded-5 xx"
+                  style="background-color: #040000"
+                  >click here</a
+                >
+                <a
+                  href="#"
+                  class="btn btn-primary rounded-5 xx"
+                  style="background-color: #040000"
+                  >click here</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card text-bg-secondary">
+              <div class="card-body bc" style="height: 350px">
+                <div class="" style="line-height: 5">
+                  <i class="fa-solid fa-cloud-arrow-up fa-2xl"></i>
+                  <h1 style="font-size: x-large">Cloud Integration</h1>
+                </div>
+                <p class="card-text">
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur excepteur sint.
+                </p>
+                <a
+                  href="#"
+                  class="btn btn-primary rounded-5 xx"
+                  style="background-color: #040000"
+                  >click here</a
+                >
+                <a
+                  href="#"
+                  class="btn btn-primary rounded-5 xx"
+                  style="background-color: #040000"
+                  >click here</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row mt-5 bg3 d-flex rounded-5">
+        <div class="col-md-3 mt-5 color">
+          <div
+            class="d-flex rounded-2 or3"
+            style="border: white solid 0.1px; height: 90px"
+          >
+            <i
+              style="margin-left: 19px"
+              class="fa-solid fa-rocket fa-2xl mt-5"
+            ></i>
+            <p class="mt-3" style="margin-left: 10px">
+              <span>Innovation</span>
+              <br />
+              <span>Cutting-edge solutions</span>
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-3 mt-5 color">
+          <div
+            class="d-flex rounded-2 or3"
+            style="border: white solid 0.1px; height: 90px"
+          >
+            <i
+              style="margin-left: 19px"
+              class="fa-solid fa-shield-halved fa-2xl mt-5"
+            ></i>
+            <p class="mt-3" style="margin-left: 10px">
+              <span>Innovation</span>
+              <br />
+              <span>Cutting-edge solutions</span>
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-3 mt-5 color">
+          <div
+            class="d-flex rounded-2 or3"
+            style="border: white solid 0.1px; height: 90px"
+          >
+            <i
+              style="margin-left: 19px"
+              class="fa-solid fa-bolt fa-2xl mt-5"
+            ></i>
+            <p class="mt-3" style="margin-left: 10px">
+              <span>Innovation</span>
+              <br />
+              <span>Cutting-edge solutions</span>
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-3 mt-5 color">
+          <div
+            class="d-flex rounded-2 or3"
+            style="border: white solid 0.1px; height: 90px"
+          >
+            <i
+              style="margin-left: 19px"
+              class="fa-solid fa-heart-pulse fa-2xl mt-5"
+            ></i>
+            <p class="mt-3" style="margin-left: 10px">
+              <span>Innovation</span>
+              <br />
+              <span>Cutting-edge solutions</span>
+            </p>
+          </div>
+        </div>
+        <div class="row color py-5">
+          <div class="col-md-5">
+            <div class="">
+              <h1 style="font-weight: 700">Innovation Excellence</h1>
+              <p>
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                accusantium doloremque laudantium, totam rem aperiam eaque ipsa
+                quae ab illo inventore veritatis.
+              </p>
+
+              <div class="row mt-5">
+                <div class="col-md-5">
+                  <div class="">
+                    <p>Excepteur sint occaecat cupidatat non proident</p>
+                  </div>
+                </div>
+                <div class="col-md-5">
+                  <div class="">
+                    <p>Excepteur sint occaecat cupidatat non proident</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-5">
+                <div class="">
+                  <p>Excepteur sint occaecat cupidatat non proident</p>
+                </div>
+              </div>
+              <div class="col-md-5">
+                <div class="">
+                  <p>Excepteur sint occaecat cupidatat non proident</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-7">
+            <div class="">
+              <img
+                class="img-fluid"
+                style="border-radius: 15px"
+                height="500px"
+                src="./7.webp"
+                alt=""
+              />
+            </div>
+          </div>
+          <div
+            style="display: flex; font-size: x-large; margin-top: -20px"
+            
+          >
+            <p>
+              <span class="w1" style="color: orange">99.9%</span>
+              <br />
+              <span class="lead" style="font-size: large">Uptime</span>
+            </p>
+            <p style="margin-left: 50px">
+              <span class="w1" style="font-size: x-large; color: orange"
+                >50K+</span
+              >
+              <br />
+              <span class="lead" style="font-size: large">Users</span>
+            </p>
+            <p style="margin-left: 50px; font-size: x-large">
+              <span class="w1" style="color: orange">24/7</span>
+              <br />
+              <span class="lead" style="font-size: large">Support</span>
+            </p>
+          </div>
+          <div style="margin-top: -150px" class="bt-5">
+            <button
+              type="button"
+              class="btn btn-warning rounded-5 color"
+              style="height: 50px; width: 170px"
+            >
+              Laren More
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-5">
+      <div class="row color tx py-5">
+        <div class="col-md-12 mt-5" id="Services">
+          <h1 class="w1">Services</h1>
+          <p class="">
+            Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+            consectetur velit
+          </p>
+        </div>
+      </div>
+      <div class="row color">
+        <div class="col-md-6">
+          <h1 class="w1 lar">Custom Application Development</h1>
+          <p class="mt-5" style="font-size: large">
+            Building robust applications tailored to your specific needs using
+            modern frameworks and cutting-edge technologies.
+          </p>
+          <button
+            type="button"
+            class="btn btn-warning rounded-5 color"
+            style="width: 180px; height: 50px"
+          >
+            Explore Our Work
+          </button>
+        </div>
+        <div class="col-md-6">
+          <div>
+            <img
+              class="img-fluid"
+              style="border-radius: 15px"
+              src="./8.webp"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row mt-5">
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card text-bg-secondary">
+              <div class="card-body bc" style="height: 250px">
+                <div class="" style="line-height: 5">
+                  <i class="fa-solid fa-bolt fa-2xl"></i>
+                  <h1 style="font-size: x-large; width: 300px">
+                    Custom Application Development
+                  </h1>
+                </div>
+                <p class="card-text">
+                  Building robust applications tailored to your specific needs
+                  using modern frameworks and cutting-edge technologies.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card text-bg-secondary">
+              <div class="card-body bc" style="height: 250px">
+                <div class="" style="line-height: 5">
+                  <i class="fa-solid fa-shield-halved fa-2xl"></i>
+                  <h1 style="font-size: x-large; width: 200px">
+                    Strategic Planning
+                  </h1>
+                </div>
+                <p class="card-text">
+                  Comprehensive roadmaps that align technology solutions with
+                  your business objectives and market opportunities.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card text-bg-secondary">
+              <div class="card-body bc" style="height: 250px">
+                <div class="" style="line-height: 5">
+                  <i class="fa-solid fa-user fa-2xl"></i>
+                  <h1 style="font-size: x-large; width: 200px">
+                    Identity Design
+                  </h1>
+                </div>
+                <p class="card-text">
+                  Creating compelling visual narratives that resonate with your
+                  audience and strengthen brand recognition across all
+                  touchpoints.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card text-bg-secondary">
+              <div class="card-body bc" style="height: 250px">
+                <div class="" style="line-height: 5">
+                  <i class="fa-solid fa-arrows-up-to-line fa-2xl"></i>
+                  <h1 style="font-size: x-large; width: 200px">
+                    Digital Marketing
+                  </h1>
+                </div>
+                <p class="card-text">
+                  Maximizing your online presence through targeted campaigns
+                  that drive engagement and convert visitors into loyal
+                  customers.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card text-bg-secondary">
+              <div class="card-body bc" style="height: 250px">
+                <div class="" style="line-height: 5">
+                  <i class="fa-solid fa-gear fa-2xl"></i>
+                  <h1
+                    style="font-size: x-large; width: 340px; margin-top: -20px"
+                  >
+                    User Experience Design
+                  </h1>
+                </div>
+                <p class="card-text">
+                  Crafting intuitive interfaces that prioritize user needs while
+                  delivering seamless interactions across desktop and mobile
+                  platforms.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card text-bg-secondary">
+              <div class="card-body bc" style="height: 250px">
+                <div class="" style="line-height: 5">
+                  <i class="fa-solid fa-cloud-arrow-up fa-2xl"></i>
+                  <h1 style="font-size: x-large">Data Intelligence</h1>
+                </div>
+                <p class="card-text">
+                  Transforming raw data into actionable insights that inform
+                  strategic decisions and optimize business performance
+                  effectively.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container bg3 color mt-5">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="mt-3">
+            <p>
+              <span class="lar w1">185+</span>
+              <br />
+            </p>
+            <span class="lead">Nemo enim ipsam</span>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="mt-3">
+            <p>
+              <span class="lar w1">32K</span>
+              <br />
+            </p>
+            <span class="lead">Voluptatem sequi</span>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="mt-3">
+            <p>
+              <span class="lar w1">128+</span>
+              <br />
+            </p>
+            <span class="lead">Dolor sit consectetur</span>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class=""></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- pricing  -->
+    <div class="container">
+      <div class="row my-5">
+        <div>
+          <div class="tx color" id="Pricing">
+            <h1>Pricing</h1>
+            <p>
+              Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+              consectetur velit
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 mt-5">
+          <div class="card">
+            <div class="card text-bg-secondary">
+              <div class="card-body bc" style="height: 610px">
+                <div class="" style="line-height: 5">
+                  <i
+                    class="fa-solid fa-briefcase fa-2xl"
+                    style="margin-left: 140px"
+                  ></i>
+                  <h1
+                    style="font-size: x-large; width: 200px; margin-left: 50px"
+                    class="tx"
+                  >
+                    Professional
+                  </h1>
+                </div>
+                <p class="card-text tx">
+                  For small teams and growing businesses
+                </p>
+                <p class="tx"><span class="lar w1">$12</span> /month</p>
+                <div class="" style="line-height: 2">
+                  <p style="margin-left: 20px">
+                    <i
+                      style="margin-right: 7px"
+                      class="fa-solid fa-circle-check or"
+                    ></i
+                    >Nullam accumsan lorem
+                  </p>
+                  <p style="margin-left: 20px">
+                    <i
+                      style="margin-right: 7px"
+                      class="fa-solid fa-circle-check or"
+                    ></i
+                    >Vestibulum auctor dapibus
+                  </p>
+                  <p style="margin-left: 20px">
+                    <i
+                      style="margin-right: 7px"
+                      class="fa-solid fa-circle-check or"
+                    ></i
+                    >Nulla consequat massa
+                  </p>
+                  <p style="margin-left: 20px; opacity: 0.5">
+                    <i
+                      style="margin-right: 7px"
+                      class="fa-solid fa-circle-xmark"
+                    ></i
+                    >Cras dapibus vivamus
+                  </p>
+                  <p style="margin-left: 20px; opacity: 0.5">
+                    <i
+                      style="margin-right: 7px"
+                      class="fa-solid fa-circle-xmark"
+                    ></i
+                    >Cras dapibus vivamus
+                  </p>
+                  <button
+                    style="width: 290px; height: 50px"
+                    type="button"
+                    class="btn btn-warning rounded-5 mt-5 me-5"
+                  >
+                    warning
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mt-5">
+          <div class="card">
+            <div class="card text-bg-secondary">
+              <div class="card-body bc" style="height: 610px">
+                <div class="" style="line-height: 5">
+                  <i
+                    class="fa-solid fa-briefcase fa-2xl"
+                    style="margin-left: 140px"
+                  ></i>
+                  <h1
+                    style="font-size: x-large; width: 200px; margin-left: 50px"
+                    class="tx"
+                  >
+                    Professional
+                  </h1>
+                </div>
+                <p class="card-text tx">
+                  For small teams and growing businesses
+                </p>
+                <p class="tx"><span class="lar w1">$39</span> /month</p>
+                <div class="" style="line-height: 2">
+                  <p style="margin-left: 20px">
+                    <i
+                      style="margin-right: 7px"
+                      class="fa-solid fa-circle-check or"
+                    ></i
+                    >Donec quam felis ultricies
+                  </p>
+                  <p style="margin-left: 20px">
+                    <i
+                      style="margin-right: 7px"
+                      class="fa-solid fa-circle-check or"
+                    ></i
+                    >Nam eget dui etiam rhoncus
+                  </p>
+                  <p style="margin-left: 20px">
+                    <i
+                      style="margin-right: 7px"
+                      class="fa-solid fa-circle-check or"
+                    ></i
+                    >Maecenas tempus tellus
+                  </p>
+                  <p style="margin-left: 20px">
+                    <i
+                      style="margin-right: 7px"
+                      class="fa-solid fa-circle-check or"
+                    ></i
+                    >Donec pede justo fringilla
+                  </p>
+                  <p style="margin-left: 20px; opacity: 0.5">
+                    <i
+                      style="margin-right: 7px"
+                      class="fa-solid fa-circle-xmark"
+                    ></i
+                    >Cras dapibus vivamus
+                  </p>
+                  <button
+                    style="width: 290px; height: 50px; margin-left: 5px"
+                    type="button"
+                    class="btn btn-warning rounded-5 mt-5"
+                  >
+                    warning
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mt-5">
+          <div class="card">
+            <div class="card text-bg-secondary">
+              <div class="card-body bc" style="height: 610px">
+                <div class="" style="line-height: 5">
+                  <i
+                    class="fa-solid fa-briefcase fa-2xl"
+                    style="margin-left: 140px"
+                  ></i>
+                  <h1
+                    style="font-size: x-large; width: 200px; margin-left: 50px"
+                    class="tx"
+                  >
+                    Professional
+                  </h1>
+                </div>
+                <p class="card-text tx">
+                  For small teams and growing businesses
+                </p>
+                <p class="tx"><span class="lar w1">$79</span> /month</p>
+                <div class="" style="line-height: 2">
+                  <p style="margin-left: 20px">
+                    <i
+                      style="margin-right: 7px"
+                      class="fa-solid fa-circle-check or"
+                    ></i
+                    >Etiam sit amet orci eget
+                  </p>
+                  <p style="margin-left: 20px">
+                    <i
+                      style="margin-right: 7px"
+                      class="fa-solid fa-circle-check or"
+                    ></i
+                    >Pellentesque posuere vulputate
+                  </p>
+                  <p style="margin-left: 20px">
+                    <i
+                      style="margin-right: 7px"
+                      class="fa-solid fa-circle-check or"
+                    ></i
+                    >Quisque rutrum aenean
+                  </p>
+                  <p style="margin-left: 20px">
+                    <i
+                      style="margin-right: 7px"
+                      class="fa-solid fa-circle-check or"
+                    ></i
+                    >Fusce vulputate eleifend
+                  </p>
+                  <p style="margin-left: 20px">
+                    <i
+                      style="margin-right: 7px"
+                      class="fa-solid fa-circle-check or"
+                    ></i
+                    >Phasellus viverra nulla
+                  </p>
+                  <button
+                    style="width: 290px; height: 50px; margin-left: 5px"
+                    type="button"
+                    class="btn btn-warning rounded-5 mt-5"
+                  >
+                    warning
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-md-8 mt-3">
+          <div class="accordion">
+            <div class="accordion-item">
+              <div class="accordion-header">
+                <button
+                  style="background-color: #040000; color: white"
+                  class="accordion-button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#episode-1-body"
+                >
+                  Vivamus suscipit tortor eget felis porttitor volutpat?
+                </button>
+                <div class="accordion-collapse collapse" id="episode-1-body">
+                  <div class="accordion-body">
+                    <p>
+                      Nulla quis lorem ut libero malesuada feugiat. Vestibulum
+                      ac diam sit amet quam vehicula elementum sed sit amet dui.
+                      Curabitur aliquet quam id dui posuere blandit. Nulla
+                      porttitor accumsan tincidunt.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion mt-3">
+            <div class="accordion-item">
+              <div class="accordion-header">
+                <button
+                  style="background-color: #040000; color: white"
+                  class="accordion-button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#episode-2-body"
+                >
+                  Vivamus suscipit tortor eget felis porttitor volutpat?
+                </button>
+                <div class="accordion-collapse collapse" id="episode-2-body">
+                  <div class="accordion-body">
+                    <p>
+                      Nulla quis lorem ut libero malesuada feugiat. Vestibulum
+                      ac diam sit amet quam vehicula elementum sed sit amet dui.
+                      Curabitur aliquet quam id dui posuere blandit. Nulla
+                      porttitor accumsan tincidunt.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion mt-3">
+            <div class="accordion-item">
+              <div class="accordion-header">
+                <button
+                  style="background-color: #040000; color: white"
+                  class="accordion-button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#episode-3-body"
+                >
+                  Vivamus suscipit tortor eget felis porttitor volutpat?
+                </button>
+                <div class="accordion-collapse collapse" id="episode-3-body">
+                  <div class="accordion-body">
+                    <p>
+                      Nulla quis lorem ut libero malesuada feugiat. Vestibulum
+                      ac diam sit amet quam vehicula elementum sed sit amet dui.
+                      Curabitur aliquet quam id dui posuere blandit. Nulla
+                      porttitor accumsan tincidunt.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion mt-3">
+            <div class="accordion-item">
+              <div class="accordion-header">
+                <button
+                  style="background-color: #040000; color: white"
+                  class="accordion-button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#episode-4-body"
+                >
+                  Vivamus suscipit tortor eget felis porttitor volutpat?
+                </button>
+                <div class="accordion-collapse collapse" id="episode-4-body">
+                  <div class="accordion-body">
+                    <p>
+                      Nulla quis lorem ut libero malesuada feugiat. Vestibulum
+                      ac diam sit amet quam vehicula elementum sed sit amet dui.
+                      Curabitur aliquet quam id dui posuere blandit. Nulla
+                      porttitor accumsan tincidunt.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion mt-3">
+            <div class="accordion-item">
+              <div class="accordion-header">
+                <button
+                  style="background-color: #040000; color: white"
+                  class="accordion-button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#episode-5-body"
+                >
+                  Vivamus suscipit tortor eget felis porttitor volutpat?
+                </button>
+                <div class="accordion-collapse collapse" id="episode-5-body">
+                  <div class="accordion-body">
+                    <p>
+                      Nulla quis lorem ut libero malesuada feugiat. Vestibulum
+                      ac diam sit amet quam vehicula elementum sed sit amet dui.
+                      Curabitur aliquet quam id dui posuere blandit. Nulla
+                      porttitor accumsan tincidunt.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card text-bg-secondary">
+              <div class="card-body bc" style="height: 450px">
+                <div class="" style="line-height: 5">
+                  <i
+                    class="fa-solid fa-comment-dots fa-2xl"
+                    style="margin-left: 140px"
+                  ></i>
+                  <h1
+                    style="font-size: x-large; width: 200px; margin-left: 50px"
+                    class="tx"
+                  >
+                    Can't find answer to your question?
+                  </h1>
+                </div>
+                <p class="card-text tx mt-3">
+                  Vestibulum ante ipsum primis in faucibus orci luctus et
+                  ultrices posuere cubilia Curae; Donec velit neque, auctor sit
+                  amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ac
+                  diam sit amet quam vehicula elementum sed sit amet dui.
+                  Curabitur aliquet quam id dui posuere blandit. Nulla quis
+                  lorem ut libero malesuada feugiat.
+                </p>
+
+                <button
+                  style="width: 200px; height: 50px; margin-left: 50px"
+                  type="button"
+                  class="btn btn-warning rounded-5"
+                >
+                  warning
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row my-5">
+        <div class="col-md-12 tx mt-5 color" id="Contact">
+          <h1>Contact</h1>
+          <p>
+            Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+            consectetur velit
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- the last container  -->
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-5 color">
+          <h1>Connect With Us</h1>
+          <p class="mt-3">
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+            accusantium doloremque laudantium totam.
+          </p>
+          <div class="card">
+            <div class="card-body bg-1" style="display: flex">
+              <i class="fa-solid fa-location-dot fa-2xl mt-4 or"></i>
+              <p style="margin-left: 10px">
+                <span class="w1">Visit Our Office</span>
+                <br />
+                <span>1247 Fifth Avenue, Manhattan, NY 10029</span>
+              </p>
+            </div>
+          </div>
+
+          <div class="card mt-4">
+            <div class="card-body bg-1" style="display: flex">
+              <i class="fa-solid fa-envelope fa-2xl mt-4 or"></i>
+              <p style="margin-left: 10px">
+                <span class="w1">Send Email</span>
+                <br />
+                <span>alisahari2008@gmail.com</span>
+              </p>
+            </div>
+          </div>
+
+          <div class="card mt-4">
+            <div class="card-body bg-1" style="display: flex">
+              <i class="fa-solid fa-phone fa-2xl mt-4 or"></i>
+              <p style="margin-left: 10px">
+                <span class="w1">Call Direct</span>
+                <br />
+                <span>+97439951798</span>
+              </p>
+            </div>
+          </div>
+
+          <div class="card mt-4">
+            <div class="card-body bg-1" style="display: flex">
+              <i class="fa-solid fa-clock fa-2xl mt-4 or"></i>
+              <p style="margin-left: 10px">
+                <span class="w1">Business Hours</span>
+                <br />
+                <span>Mon-Sat: 8AM - 7PM</span>
+              </p>
+            </div>
+          </div>
+
+          <div class="card mt-4">
+            <div class="card-body bg-1 tx">
+              <p class="w1">Follow Our Journey</p>
+            </div>
+            <div
+              class="tx justify-content-center bg-1"
+              style="display: flex; height: 65px"
+            >
+              <i
+                style="margin-right: 15px"
+                class="fa-brands fa-facebook fa-2xl or"
+              ></i>
+              <i class="fa-brands fa-square-x-twitter fa-2xl or"></i>
+              <i
+                style="margin-left: 15px"
+                class="fa-brands fa-linkedin fa-2xl or"
+              ></i>
+              <i
+                style="margin-left: 15px"
+                class="fa-brands fa-youtube fa-2xl or"
+              ></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-5">
+          <div class="card">
+            <div class="card text-bg-secondary">
+              <div class="card-body bc" style="height: 750px">
+                <div class="tx">
+                  <h1>Send Us Message</h1>
+                  <p class="mt-3">
+                    Ut enim ad minim veniam quis nostrud exercitation ullamco
+                    laboris nisi ut aliquip ex ea commodo consequat.
+                  </p>
+                  <form class="mt-5" action="">
+                    <div class="">
+                      <label class="mt-3 w1" class="" for="">Full Name</label>
+                      <br />
+                      <input
+                        class="bt rounded-3"
+                        placeholder="Enter your full name"
+                        type="text"
+                      />
+                      <br />
+                      <label class="mt-3 w1" for="">Email Address</label>
+                      <br />
+                      <input
+                        class="bt rounded-3"
+                        placeholder="Enter your email address"
+                        type="email"
+                      />
+                      <br />
+                      <label class="mt-3 w1" for="">Phone Number</label>
+                      <br />
+                      <input
+                        class="bt rounded-3"
+                        placeholder="Enter your Phone Number"
+                        type="tel"
+                      />
+                      <br />
+                      <label class="mt-3 w1" for="">Subject</label>
+                      <br />
+                      <input
+                        class="bt rounded-3"
+                        placeholder="Enter Message Subject "
+                        type="text"
+                      />
+                      <br />
+                      <label class="mt-3 w1" for="">Your Message</label>
+                      <br />
+                      <textarea
+                        class="bt1 rounded-3"
+                        placeholder="Enter your Message"
+                        name=""
+                        id=""
+                      ></textarea>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="conyainer mt-5 lig">
+      <div class="row color">
+        <div class="col-md-4">
+          <div class=""></div>
+          <h1>MyWebsite</h1>
+          <p>
+            A108 Adam Street
+            <br />
+            New York, NY 535022
+          </p>
+          <p class="mt-2">
+            Phone: +1 5589 55488 55
+            <br />
+            Email: info@example.com
+          </p>
+        </div>
+        <div class="col-md-2">
+          <div class="">
+            <p>Useful Links</p>
+            <ul class="list-unstyled">
+              <li><a class="li figure-caption" href="">Home</a></li>
+              <li><a class="li figure-caption" href="">About us</a></li>
+              <li><a class="li figure-caption" href="">Services</a></li>
+              <li><a class="li figure-caption" href="">Terms of service</a></li>
+              <li><a class="li figure-caption" href="">Privacy policy</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="">
+            <p>Our Services</p>
+
+            <ul class="list-unstyled">
+              <li><a class="li figure-caption" href="">Web Design</a></li>
+              <li><a class="li figure-caption" href="">Web Development</a></li>
+              <li>
+                <a class="li figure-caption" href="">Product Management</a>
+              </li>
+              <li><a class="li figure-caption" href="">Marketing</a></li>
+              <li><a class="li figure-caption" href="">Graphic Design</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="">
+            <p>Hic solutasetp</p>
+            <ul class="list-unstyled">
+              <li>
+                <a class="li figure-caption" href=""
+                  >Molestiae accusamus iure</a
+                >
+              </li>
+              <li>
+                <a class="li figure-caption" href="">Excepturi dignissimos</a>
+              </li>
+              <li>
+                <a class="li figure-caption" href="">Suscipit distinctio</a>
+              </li>
+              <li><a class="li figure-caption" href="">Dilecta</a></li>
+              <li>
+                <a class="li figure-caption" href="">Sit quas consectetur</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="">
+            <p>Nobis illum</p>
+            <ul class="list-unstyled">
+              <li><a class="li figure-caption" href="">Ipsam</a></li>
+              <li>
+                <a class="li figure-caption" href="">Laudantium dolorum</a>
+              </li>
+              <li><a class="li figure-caption" href="">Dinera</a></li>
+              <li><a class="li figure-caption" href="">Trodelas</a></li>
+              <li><a class="li figure-caption" href="">Flexo</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container lig1 color">
+      <div class="row">
+        <div class="col-md-9">
+          <div class="">
+            <p>© Copyright MyWebsite. All Rights Reserved</p>
+            <p>Designed by <a class="or li" href="">BootstrapMade</a></p>
+          </div>
+        </div>
+        <div class="col-md-3 mt-4">
+          <div class="">
+            <i
+              style="margin-right: 15px"
+              class="fa-brands fa-facebook fa-2xl or"
+            ></i>
+            <i class="fa-brands fa-square-x-twitter fa-2xl or"></i>
+            <i
+              style="margin-left: 15px"
+              class="fa-brands fa-linkedin fa-2xl or"
+            ></i>
+            <i
+              style="margin-left: 15px"
+              class="fa-brands fa-youtube fa-2xl or"
+            ></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 
+    ييسش
+    يسش
+    يشس
+    -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  </body>
+</html>

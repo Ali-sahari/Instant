@@ -1,0 +1,79 @@
+li a {
+  color: white;
+}
+
+li a:hover {
+  color: orange;
+}
+
+.black {
+  background-color: black;
+}
+.or {
+  color: orange;
+}
+.bc {
+  background-color: #212529;
+}
+
+a {
+  background-color: #040000;
+}
+.xx:hover {
+  background-color: orange;
+}
+.bg3 {
+  background-color: #121212;
+}
+.or3:hover {
+  background-color: orange;
+}
+.w1 {
+  font-weight: 700;
+}
+.tx {
+  text-align: center;
+}
+.lar{
+    font-size: xxx-large;
+}
+.lar2{
+    font-size: xx-large;
+}
+.bg4{
+    background-color: #1b1a1a;
+}
+.bt{
+/* width: 450px; */
+width: 100%;
+height: 50px;
+background-color:#191919;
+border: none;
+border: #1b1a1a solid 1px;
+}
+.bt1{
+/* width: 450px; */
+width: 100%;
+height: 110px;
+background-color:#191919;
+border: none;
+border: #1b1a1a solid 1px;
+}
+.bg-1{
+    background-color: #191919;
+    
+}
+.li{
+  text-decoration: none;
+  background: none;
+  
+}
+.lig{
+  background-color: #1b1a1a;
+
+
+}
+.lig1{
+  background-color: #040000;
+  cursor: pointer;
+}
